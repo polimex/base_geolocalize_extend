@@ -9,7 +9,9 @@
             <field name="arch" type="xml">
                 <field name="favicon" position="after">
                     <field name="map_provider_id"
-                           options="{'no_create_edit': True, 'no_open': True}"/>
+                           options="{'no_create_edit': True, 'no_open': True}"
+                           gruoup='base.group_no_one'
+                    />
                 </field>
             </field>
         </record>
